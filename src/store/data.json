@@ -1,0 +1,65 @@
+[
+    {
+      "ID": "D",
+      "LocalizedName": "Southern District",
+      "EnglishName": "Southern District",
+      "Level": 1,
+      "LocalizedType": "District",
+      "EnglishType": "District",
+      "CountryID": "IL"
+    },
+    {
+      "ID": "GO",
+      "LocalizedName": "Golan Heights",
+      "EnglishName": "Golan Heights",
+      "Level": 1,
+      "LocalizedType": "Disputed Area",
+      "EnglishType": "Disputed Area",
+      "CountryID": "IL"
+    },
+    {
+      "ID": "HA",
+      "LocalizedName": "Haifa",
+      "EnglishName": "Haifa",
+      "Level": 1,
+      "LocalizedType": "District",
+      "EnglishType": "District",
+      "CountryID": "IL"
+    },
+    {
+      "ID": "JM",
+      "LocalizedName": "Jerusalem",
+      "EnglishName": "Jerusalem",
+      "Level": 1,
+      "LocalizedType": "District",
+      "EnglishType": "District",
+      "CountryID": "IL"
+    },
+    {
+      "ID": "M",
+      "LocalizedName": "Central District",
+      "EnglishName": "Central District",
+      "Level": 1,
+      "LocalizedType": "District",
+      "EnglishType": "District",
+      "CountryID": "IL"
+    },
+    {
+      "ID": "TA",
+      "LocalizedName": "Tel Aviv",
+      "EnglishName": "Tel Aviv",
+      "Level": 1,
+      "LocalizedType": "District",
+      "EnglishType": "District",
+      "CountryID": "IL"
+    },
+    {
+      "ID": "Z",
+      "LocalizedName": "Northern District",
+      "EnglishName": "Northern District",
+      "Level": 1,
+      "LocalizedType": "District",
+      "EnglishType": "District",
+      "CountryID": "IL"
+    }
+  ]
