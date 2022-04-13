@@ -1,24 +1,15 @@
-import { useState } from 'react';
-import Alert from 'react-bootstrap/Alert'
+import { useState } from "react";
 const Notification = (props) => {
-  const [style, setstyle] = useState("")
 
-  if (props.status === 'error') setstyle("danger");
-  if (props.status === 'success') setstyle("success");
-
+  let alert = ""
+  if (props.status === "failed") alert = "alert alert-danger"
+  if (props.status === "success") alert ="alert alert-success";
 
   return (
-  <Alert variant={style}>
-  <Alert.Heading>{props.title}</Alert.Heading>
-  <p>
-  {props.message}
-  </p>
-  <hr />
-</Alert>
-    // <section>
-    //   <h2>{props.title}</h2>
-    //   <p>{props.message}</p>
-    // </section>
+    <div className={alert} role="alert">
+     <h2>{props.title}</h2>
+     <h4>{props.message}</h4>
+    </div>
   );
 };
 
